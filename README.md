@@ -20,9 +20,6 @@ Tujuan dari seluruh rangkaian praktikum ini adalah memahami proses pengembangan 
 
 | No | Praktikum | Materi |
 |----|-----------|---------|
-| 8 | AJAX | Implementasi AJAX pada CodeIgniter 4 |
-| 9 | AJAX Pagination & Search | Pagination dan Pencarian Data Menggunakan AJAX |
-| 10 | REST API | Pembuatan REST API CRUD |
 | 11 | VueJS Frontend API | Integrasi VueJS dengan REST API |
 | 12 | VueJS Components & Routing | Single Page Application (SPA) |
 | 13 | Authentication & Navigation Guards | Login dan Proteksi Halaman |
@@ -30,74 +27,6 @@ Tujuan dari seluruh rangkaian praktikum ini adalah memahami proses pengembangan 
 
 ---
 
-# Praktikum 8 – AJAX pada CodeIgniter 4
-
-## Penjelasan
-
-Pada praktikum ini dipelajari penggunaan AJAX (Asynchronous JavaScript and XML) untuk mengambil data dari server tanpa melakukan reload halaman. Implementasi dilakukan menggunakan jQuery AJAX yang terhubung dengan aplikasi CodeIgniter 4.
-
-AJAX digunakan untuk menampilkan daftar artikel secara dinamis dan melakukan penghapusan data secara realtime. Dengan metode ini pengguna dapat berinteraksi dengan aplikasi secara lebih cepat dan nyaman karena tidak perlu memuat ulang halaman setiap kali terjadi perubahan data.
-
-Selain meningkatkan pengalaman pengguna, AJAX juga membantu mengurangi beban server karena hanya data yang diperlukan saja yang dikirimkan tanpa harus memuat ulang seluruh halaman web.
-
-## Hasil
-
-Berhasil menampilkan data artikel dari database secara asynchronous dan menghapus data artikel tanpa reload halaman. Implementasi AJAX membuat aplikasi menjadi lebih responsif dan meningkatkan pengalaman pengguna.
-
-### Dokumentasi
-
-- Screenshot Tampilan Data Artikel
-- Screenshot Request AJAX
-- Screenshot Hapus Data
-
----
-
-# Praktikum 9 – AJAX Pagination dan Search
-
-## Penjelasan
-
-Pada praktikum ini dilakukan pengembangan fitur AJAX dengan menambahkan pagination dan pencarian data. Pagination digunakan untuk membagi data artikel menjadi beberapa halaman sehingga tampilan lebih rapi dan mudah dibaca ketika jumlah data semakin banyak.
-
-Fitur pencarian memungkinkan pengguna mencari artikel berdasarkan kata kunci tertentu. Ketika pengguna mengetikkan kata kunci, AJAX akan mengirim request ke server dan menampilkan hasil pencarian tanpa melakukan refresh browser.
-
-Selain itu ditambahkan indikator loading untuk memberikan informasi kepada pengguna bahwa sistem sedang memproses data yang diminta.
-
-## Hasil
-
-Pagination berhasil membagi data artikel menjadi beberapa halaman yang dapat diakses secara dinamis. Fitur pencarian juga mampu menampilkan data sesuai kata kunci yang dimasukkan pengguna. Seluruh proses berjalan secara realtime menggunakan AJAX tanpa reload halaman.
-
-### Dokumentasi
-
-- Screenshot Search Artikel
-- Screenshot Hasil Pencarian
-- Screenshot Pagination
-- Screenshot Loading Indicator
-
----
-
-# Praktikum 10 – REST API CodeIgniter 4
-
-## Penjelasan
-
-Pada praktikum ini dibuat REST API menggunakan CodeIgniter 4 dengan memanfaatkan ResourceController. REST API memungkinkan aplikasi lain berkomunikasi dengan server menggunakan protokol HTTP dan format data JSON.
-
-Endpoint yang dibuat meliputi operasi CRUD (Create, Read, Update, Delete). Metode GET digunakan untuk mengambil data artikel, POST digunakan untuk menambahkan data baru, PUT digunakan untuk memperbarui data yang sudah ada, dan DELETE digunakan untuk menghapus data artikel dari database.
-
-Pengujian endpoint dilakukan menggunakan aplikasi Postman untuk memastikan setiap request dan response berjalan sesuai dengan fungsi yang diharapkan.
-
-## Hasil
-
-REST API berhasil dibuat dan seluruh endpoint dapat digunakan dengan baik. Data artikel dapat ditampilkan, ditambahkan, diperbarui, dan dihapus melalui request HTTP yang dikirim menggunakan Postman.
-
-### Dokumentasi
-
-- Screenshot GET All Data
-- Screenshot GET By ID
-- Screenshot POST Data
-- Screenshot PUT Data
-- Screenshot DELETE Data
-
----
 
 # Praktikum 11 – VueJS Frontend API
 
@@ -116,6 +45,9 @@ Frontend VueJS berhasil mengambil data dari REST API dan menampilkannya ke dalam
 ### Dokumentasi
 
 - Screenshot Daftar Artikel
+  <img width="1024" height="640" alt="111" src="https://github.com/user-attachments/assets/6fcc3e4f-7cf9-4670-bf47-c894b5055027" />
+
+
 - Screenshot Tambah Data
 - Screenshot Edit Data
 - Screenshot Hapus Data
